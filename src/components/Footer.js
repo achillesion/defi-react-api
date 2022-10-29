@@ -1,13 +1,14 @@
 import React from 'react'
 import {FaFacebook, FaGithub, FaLinkedin, FaTwitter} from 'react-icons/fa'
 import './Footer.css'
+import Logo from '../assets/logo-warp.png'
 
 const Footer = () => {
     return (
         <div className='footer'>
             <div className='container'>
                 <div className='col col-1'>
-                    <h1>De<span className='primary'>Fi</span></h1>
+                <img src={Logo} alt='' width={'100px'}/>
                 </div>
                 <div className='col'>
                     <h5>Support</h5>

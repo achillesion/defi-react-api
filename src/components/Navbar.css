@@ -1,8 +1,8 @@
 .header {
     width: 100%;
     height: 90px;
-    border-bottom: 1px solid #eee;
-    background: #fff;
+    /* border-bottom: 1px solid #eee; */
+    /* background: #8500C5; */
     position: sticky;
     top: 0;
     left: 0;
@@ -32,7 +32,7 @@
 .nav-menu a {
     font-size: 1rem;
     font-weight: 600;
-    color: #333;
+    color: #fff;
 }
 
 .hamburger {
@@ -56,22 +56,27 @@
         height: 100vh;
         transition: 0.4s;
         z-index: 2;
-        background: #fff;
-        border-left: 1px solid #eee;
+        background-image: linear-gradient(to right, #8500C5,#c78ee2);
+        /* border-left: 1px solid #eee; */
     }
 
     .nav-menu.active {
-        right: 0;
+        left: 0;
     }
 
     .nav-menu li {
         padding: 1rem;
         width: 100%;
-        border-bottom: 1px solid #eee;
+        /* border-bottom: 1px solid #eee; */
     }
 
     .nav-menu a {
         font-size: 1.2rem;
+    }
+
+    .header .container {
+        display: flex;
+        flex-direction: row-reverse;
     }
 }
 

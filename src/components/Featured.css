@@ -2,7 +2,7 @@
 .featured {
     width: 100%;
     padding: 8rem 0;
-    background-color: var(--background);
+    background-image:none;
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%);
 }
 

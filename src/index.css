@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-  --primary: #118c4f;
-  --background: #f5f8ff;
+  --primary: #8500C5;
+  --secondary:#14054F;
+  --background: rgb(0, 0, 0);
 }
 
 .primary {
@@ -36,6 +37,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right,#14054F, #8500C5);
 }
 
 code {
@@ -47,11 +49,14 @@ code {
 h1 {
   font-size: 3.5rem;
   line-height: 1.2;
+  color: #fff;
 }
 
 h2 {
   font-size: 2.4rem;
   line-height: 1.2;
+  
+  
 }
 
 h5 {
@@ -65,13 +70,28 @@ p {
 
 .btn {
   padding: 14px 32px;
-  border: 1px solid var(--primary);
+  border: none;
   background-color: var(--primary);
   color: #fff;
-  border-radius: 24px 4px;
+  border-radius: 20px;
   font-size: 1.1rem;
   font-weight: 600;
   cursor: pointer;
+  margin: 1rem 1rem;
+
+}
+
+.btn-1 {
+  padding: 14px 32px;
+  border: none;
+  background-color: var(--secondary);
+  color: #fff;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 1rem 1rem;
+
 }
 
 .btn:hover {
@@ -111,7 +131,7 @@ input {
 
   .btn {
     width: 100%;
-    margin: 1rem 0;
+    margin: 1rem 1rem;
   }
 
   input {
