@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hero.css'
 import Plant from '../assets/bc-plant.svg'
-import {Fa, FaGithub, FaLinkedin, FaPlus, FaTwitter} from 'react-icons/fa';
+import { FaPlus} from 'react-icons/fa';
 
 const Hero = () => {
     return (
