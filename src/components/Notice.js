@@ -1,6 +1,6 @@
 import React from 'react'
 import './Notice.css'
-import Plant from '../assets/bc-plant.svg'
+// import Plant from '../assets/bc-plant.svg'
 // import {FaExclamationTriangle, FaGithub, FaLinkedin, FaPlus, FaTwitter} from 'react-icons/fa';
 import {FaExclamationTriangle} from 'react-icons/fa';
 
